@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application>
+        <activity
+            android:name=".Rating"
+            android:exported="false"
+            android:theme="@style/Theme.CA3"/>
+        <activity
+            android:name=".afterNotification"
+            android:exported="false" />
+        <activity
+            android:name=".Interact"
+            android:exported="false"
+            android:theme="@style/Theme.CA3" />
+        <activity
+            android:name=".SignUp"
+            android:exported="false"
+            android:theme="@style/Theme.CA3" />
+        <activity
+            android:name=".Register"
+            android:exported="false"
+            android:theme="@style/Theme.CA3" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true"
+            android:icon="@drawable/ic_launcher_foreground"
+            android:label="Events"
+            android:theme="@style/Theme.CA3">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.CA3" />
+    </application>
+
+</manifest>
